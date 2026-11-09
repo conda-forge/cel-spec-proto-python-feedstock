@@ -2,7 +2,7 @@
 
 context:
   name: cel-spec-proto-python
-  version: "0.25.3"
+  version: "0.26.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/google/cel-spec/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: cd1c09d81aa1fc0f2b605db3cc5c4eda58c7b487475a16dad00da8f566e7a5c2
+  sha256: f0917821bf5ce4d1c576399feb5d2f42a9cde27a070a6931ac860e4abdde8cf2
 
 build:
   number: 0
